@@ -1,7 +1,5 @@
-# AwesomeSemanticParsing
-Papers and Resources for Semantic Parsing in NLP
-
 # AWESOME Bibliography: Semantic Parsing
+Papers and Resources for Semantic Parsing in NLP
 Aarohi Srivastava
 
 
@@ -24,12 +22,12 @@ In this seminal paper, Zelle & Mooney (1996) adapt their CHILL parser (Zelle & M
 
 [**Grounded Unsupervised Semantic Parsing**](https://www.aclweb.org/anthology/P13-1092.pdf)
 
-Poon (2013) develops the first unsupervised method of semantic parsing that performs competively well compared to supervised semantic parsers. Their model annotates a dependency tree with latent states and learns a probabilistic grammar, making use of the knowledge-base for indirect supervision. 
+Poon (2013) conceives the first unsupervised method of semantic parsing that performs competively well compared to supervised semantic parsers. Their model annotates a dependency tree with latent states and learns a probabilistic grammar, making use of the knowledge-base for indirect supervision. 
 
 
 [**Compositional Semantic Parsing on Semi-Structured Tables**](https://ppasupat.github.io/WikiTableQuestions/)
 
-Pasupat & Liang (2015) develop a parsing algorithm guided by semantic type constraints to answer questions about semi-structured tables.
+Pasupat & Liang (2015) devises a parsing algorithm guided by semantic type constraints to answer questions about semi-structured tables.
 
 
 [**Data Recombination for Neural Semantic Parsing**](https://www.aclweb.org/anthology/P16-1002.pdf)
@@ -39,12 +37,12 @@ Jia & Liang (2016) introduce a novel framework of data recombination to inject t
 
 [**Transforming Dependency Structures to Logical Forms for Semantic Parsing**](https://www.aclweb.org/anthology/Q16-1010/)
 
-Reddy et al. (2016) develop DepLambda to map from natural language to an ungrounded lambda calculus logical representation using the dependency parse of the sentence.  In addition, they implement an algorithm to ground the logical reprentation of the sentence in a knowledge base.
+Reddy et al. (2016) design DepLambda to map from natural language to an ungrounded lambda calculus logical representation using the dependency parse of the sentence.  In addition, they implement an algorithm to ground the logical reprentation of the sentence in a knowledge base.
 
 
 [**Universal Semantic Parsing**](https://www.aclweb.org/anthology/D17-1009.pdf)
 
-Reddy et al. (2017) develop UDepLambda, a semantic interface for Universal Dependencies that maps natural language to logical forms and processes dependency graphs.
+Reddy et al. (2017) create UDepLambda, a semantic interface for Universal Dependencies that maps natural language to logical forms and processes dependency graphs.
 
 
 [**TRANX: A Transition-based Neural Abstract Syntax Parser for Semantic
@@ -57,27 +55,27 @@ Yin et al. (2018) develop an abstract syntax parser that can map natural languag
 
 **Language to Logical Form with Neural Attention** [[paper](https://www.aclweb.org/anthology/P16-1004.pdf)] [[code](https://github.com/donglixp/lang2logic)]
 
-Dong & Lapata (2016) develop an encoder-decoder model with attention that generates logical forms.  Their model is easy to adapt across domains and meaning representations.
+Dong & Lapata (2016) construct an encoder-decoder model with attention that generates logical forms.  Their model is easy to adapt across domains and meaning representations.
 
 
 **Decoupling Structure and Lexicon for Zero-Shot Semantic Parsing** [[paper](https://www.aclweb.org/anthology/D18-1190/)] [[code](https://github.com/jonathanherzig/zero-shot-semantic-parsing)]
 
-Herzig & Berant (2018) develop a method of zero-shot learning for semantic parsing in which they first map an utterance to an abstract logical form with slots (resembling lambda calculus) before replacing the slots with knowledge-base constants.
+Herzig & Berant (2018) devise a method of zero-shot learning for semantic parsing in which they first map an utterance to an abstract logical form with slots (resembling lambda calculus) before replacing the slots with knowledge-base constants.
 
 
 **Coarse-to-Fine Decoding for Neural Semantic Parsing** [[paper](https://www.aclweb.org/anthology/P18-1068.pdf)]
 
-Dong & Lapata (2018) create a structure-aware neural architecture in which they first generate a rough sketch of the meaning of an input sequence and later fill in missing details.
+Dong & Lapata (2018) design a structure-aware neural architecture in which they first generate a rough sketch of the meaning of an input sequence and later fill in missing details.
 
 
 **Zero-Shot Semantic Parsing for Instructions** [[paper](https://www.aclweb.org/anthology/P19-1438.pdf)] [[code](https://github.com/givoli/TechnionNLI/)]
 
-Givoli & Reichart (2019) develop a semantic parser takes instructions as inputs and outputs the corresponding compositional logical form. Notably, they obtain good performance even in domains not seen during training.
+Givoli & Reichart (2019) implement a semantic parser that takes instructions as inputs and outputs the corresponding compositional logical form. They obtain good performance even in domains not seen during training.
 
 
 **Semantic Parsing with Dual Learning** [[paper](https://arxiv.org/abs/1907.05343/)] [[code](https://github.com/rhythmcao/semantic-parsing-dual)]
 
-Cao et al. (2019) develop a method of dual learning for semantic parsing in which two models, one mapping from query to logical form, and the other mapping from logical form to query, regularize each other and provide feedback symbols of prior-knowledge. This way, the model can be trained in a semi-supervised setting utilizing unlabeled data. 
+Cao et al. (2019) illustrate a method of dual learning for semantic parsing in which two models, one mapping from query to logical form, and the other mapping from logical form to query, regularize each other and provide feedback symbols of prior-knowledge. This way, the model can be trained in a semi-supervised setting utilizing unlabeled data. 
 
 
 **Bootstrapping a Crosslingual Semantic Parser** [[paper](https://arxiv.org/abs/2004.02585)]
@@ -87,7 +85,7 @@ Sherborne, Xu, and Lapata (2020) bootstrap a transformer-based parser with vario
 
 **Exploring Unexplored Generalization Challenges for Cross-Database Semantic Parsing** [[paper](https://www.aclweb.org/anthology/2020.acl-main.742.pdf)] [[code](https://github.com/google-research/language/tree/master/language/xsp/)]
 
-In developing their own cross-domain semantic parser, Suhr et al. 2020 identify three key challenges faced by contemporary, SOTA semantic parsers when tested on unseen domains: 1) linguistic variation across domains, 2) differing database and query structures, and 3) dataset conventions.
+In formulating their own cross-domain semantic parser, Suhr et al. 2020 identify three key challenges faced by contemporary, SOTA semantic parsers when tested on unseen domains: 1) linguistic variation across domains, 2) differing database and query structures, and 3) dataset conventions.
 
 
 ## Semantic Parsing with TAG and CCG
@@ -102,7 +100,7 @@ In developing their own cross-domain semantic parser, Suhr et al. 2020 identify 
 -	ccg2lambda: A Compositional Semantics System (Gomez et al., 2016) [[paper](https://www.aclweb.org/anthology/P16-4015.pdf)] [[code](https://github.com/mynlp/ccg2lambda/)]
 -	Reflexives and Reciprocals in Synchronous Tree Adjoining Grammar (Aggazzotti & Shieber, 2017) [[paper](https://www.aclweb.org/anthology/W17-6204.pdf)]
 -	A CCG-based Compositional Semantics and Inference System for Comparatives (Haruta et al., 2019) [[paper](https://arxiv.org/abs/1910.00930/)] [[code](https://github.com/izumi-h/fracas-comparatives_adjectives)]
--	Cross-lingual CCG Induction (Evang, 2019) [[paper](https://www.aclweb.org/anthology/N19-1160.pdf)] [[code]((https://github.com/texttheater/xlci))]
+-	Cross-lingual CCG Induction (Evang, 2019) [[paper](https://www.aclweb.org/anthology/N19-1160.pdf)] [[code](https://github.com/texttheater/xlci/)]
 
 
 ## Semantic Parsing PhD Theses and Dissertations
