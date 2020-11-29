@@ -1,5 +1,7 @@
 # AWESOME Bibliography: Semantic Parsing
+
 Papers and Resources for Semantic Parsing in NLP
+
 Aarohi Srivastava
 
 
@@ -27,7 +29,7 @@ Poon (2013) conceives the first unsupervised method of semantic parsing that per
 
 [**Compositional Semantic Parsing on Semi-Structured Tables**](https://ppasupat.github.io/WikiTableQuestions/)
 
-Pasupat & Liang (2015) devises a parsing algorithm guided by semantic type constraints to answer questions about semi-structured tables.
+Pasupat & Liang (2015) devise a parsing algorithm guided by semantic type constraints to answer questions about semi-structured tables.
 
 
 [**Data Recombination for Neural Semantic Parsing**](https://www.aclweb.org/anthology/P16-1002.pdf)
